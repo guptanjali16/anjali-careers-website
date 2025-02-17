@@ -3,6 +3,6 @@
   deps = [
     pkgs.python3
     pkgs.python3Packages.pip
-    pkgs.Flask
+    pkgs.python3Packages.flask
   ];
 }

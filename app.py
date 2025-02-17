@@ -3,8 +3,8 @@ app = Flask(__name__)
 
 @app.route('/')
 
-def hello_world():
-    return 'Hello, World!'
+def hello_anjali():
+    return render_template('home.html')
 
 print(__name__)
 
